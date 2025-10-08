@@ -14,7 +14,7 @@ By using Aoki (as referred collectively - "Service"), you consent to this Privac
 
 I do not ask for your personal information, nor any function apparent in my service collect these types of information. Payment information for further functions of the service (if such feature of my service will ever be implemented) will be handled by Discord, Inc., this service does not store your payment information.
 
-Upon any of the execution of any function made available to you of the service, it will collect your Discord User ID. The service also have access to your presence as a Discord Server Member, however it is not intended to store any sensitive Server Member Information in its database, such as your join date (unless you explicitly ask to show this information).
+Upon any of the execution of any function made available to you of the service, it will collect your Discord User ID. The service also have access to your presence as a Discord Server Member, however it is not intended to store any sensitive Server Member Information in its database.
 
 Your messages in any Discord server's channel with the service's presence (this **does not include** interactions) may be collected and processed for checking explicit inputs. I make this information very clear within the service's Source Code, available within this organization:
 - I do not store your messages. The service will only check for specific inputs to reply to you.
@@ -22,7 +22,7 @@ Your messages in any Discord server's channel with the service's presence (this 
 - However, I **do send your message to a third-party** to process the answer for your specific input, **if and only if** you explicitly match the algorithm's limited conditions, made clear by the function's description.
 - You can opt-out from having your messages collected and processed by explicitly stating you want to do so. Upon opting-out, (only) your User ID will be stored as a check to ignore your further messages.
 
-If a server you join utilizes Aoki's **verification feature** (that you may have to click a button and verify with your [osu!](https://osu.ppy.sh) account), Aoki **will** store your osu! profile in its database. You can also opt-out from having this data collected (in the future) by explicitly stating you want to do so. Upon opting-out, (only) your User ID will be stored as a check to not store your account details. You can check out the code to store that [here](https://github.com/ProjectMewo/Aoki/blob/3040146fee867b9c181ef5f952863b20f47fd9c4/src/web/handlers/verify.ts#L210).
+If a server you join utilizes Aoki's **verification feature** (that you may have to click a button and verify with your [osu!](https://osu.ppy.sh) account), Aoki **will** store your osu! profile in its database. You can also opt-out from having this data collected by explicitly stating you want to do so through Aoki's commands. Upon opting-out, (only) your User ID will be stored as a check to not store your account details. You can check out the code to store that [here](https://github.com/ProjectMewo/Aoki/blob/3040146fee867b9c181ef5f952863b20f47fd9c4/src/web/handlers/verify.ts#L210).
 
 ## How I utilize your information
 
